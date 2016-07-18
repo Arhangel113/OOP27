@@ -14,7 +14,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class HomeWork4 {
+public class HomeWork2_4 {
 
 	public static void main(String[] args) throws IOException {
 		PrintWriter writer = new PrintWriter("E:/OOP27/src/filesForTests/HomeWork2_4_Result.txt");
