@@ -8,13 +8,7 @@ import java.util.Scanner;
 
 public class KillTheBill {
 
-	public static void main(String[] args) throws IOException {
-        String a = "something";
-        String b = "meth";
-       int num = a.indexOf(b);
-        System.out.print(num); // gnihtemos
-	}
-
-
+	  public static void main(String[] args) {
+	  }
 
 }
