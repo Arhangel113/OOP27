@@ -17,9 +17,9 @@ import java.util.Scanner;
 public class HomeWork2_4 {
 
 	public static void main(String[] args) throws IOException {
-		PrintWriter writer = new PrintWriter("E:/OOP27/src/filesForTests/HomeWork2_4_Result.txt");
-		ArrayList<String> censorWords = readDictionary("E:/OOP27/src/filesForTests/HomeWork2_4_censorWords.txt", ",");
-		FileReader reader = new FileReader("E:/OOP27/src/filesForTests/HomeWork2_4.txt");
+		PrintWriter writer = new PrintWriter("src/filesForTests/HomeWork2_4_Result.txt");
+		ArrayList<String> censorWords = readDictionary("src/filesForTests/HomeWork2_4_censorWords.txt", ",");
+		FileReader reader = new FileReader("src/filesForTests/HomeWork2_4.txt");
 		Scanner scan = new Scanner(reader);
 
 		while(scan.hasNextLine()){

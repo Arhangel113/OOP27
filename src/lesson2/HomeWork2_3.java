@@ -37,6 +37,4 @@ public class HomeWork2_3 {
 		writer.close();
 	}
 
-
-
 }

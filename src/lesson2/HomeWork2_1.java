@@ -1,6 +1,5 @@
 package lesson2;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -25,7 +24,5 @@ public class HomeWork2_1 {
 		writer.flush();
 		writer.close();
 	}
-		
-
-
+	
 }

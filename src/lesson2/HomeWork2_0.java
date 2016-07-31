@@ -24,8 +24,9 @@ public class HomeWork2_0 {
 					System.out.println(resultString);
 				}
 			}
-			writer.write(resultString);
-			writer.write(System.lineSeparator());	
+			writer.println(resultString);
+//			writer.write(resultString);
+//			writer.write(System.lineSeparator());	
 		}
 		reader.close();
 		writer.flush();
