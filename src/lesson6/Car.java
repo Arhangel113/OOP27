@@ -15,10 +15,11 @@ public class Car {
 				fuelLevel = fuelLevel - howKm*(fuelConsumption/100);
 				mileage = mileage + howKm;
 			}else{
-				
-				
 				System.out.println("You must start engine first!"); 
 			}
+		}
+	}
+		
 	
 	public void startTheCar(){
 		if(fuelLevel<=0){

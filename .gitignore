@@ -2,3 +2,6 @@
 .classpath
 .settings
 bin
+.idea
+OOP27.iml
+out
